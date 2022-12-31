@@ -2,15 +2,17 @@
 var opName = document.getElementById("opName");
 var get = document.getElementById("get");
 let name = document.getElementById("name");
+let audio = new Audio ("firework.mp3")
 
 // Data
-const names = ["a", "prathamesh", "mandar", "mansi", "ajinkya", "prathmesh"]
-const msg = ["Hope you like it the way i am using it for you", "Love Prgoramming ahh", "Don't focus on hole instead focus on your Goal", "Hope you achieve your Goal in 2023", "Focus! You need to focus on one thing", "Try to sleep less and follow towards your goal"];
+const names = ["", "a", "prathamesh", "mandar", "mansi", "ajinkya", "prathmesh"]
+const msg = ["Enter Your Name", "Hope you like it the way i am using it for you", "Love Prgoramming ahh", "Don't focus on hole instead focus on your Goal", "Hope you achieve your Goal in 2023", "Focus! You need to focus on one thing", "Try to sleep less and follow towards your goal"];
 
 get.onclick = function() {
     console.log("clicks")
     console.log(name.value);
     show();
+    audio.play();
 }
 
 function show() {
@@ -26,4 +28,8 @@ function printMessage(x) {
     console.log("print")
     opName.style.display = "block";
     opName.innerText = msg[x];
+}
+
+window.onload = function() {
+    audio.play();
 }
