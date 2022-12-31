@@ -121,6 +121,7 @@ body {
         #get {
             height: 45px;
             font-size: 16px;
+            margin-bottom: 15px;
         }
         #op span{
             width: 200px;
@@ -145,11 +146,12 @@ body {
     #get {
         height: 45px;
         font-size: 18px;
+        margin-bottom: 15px;
     }
     #op span{
         left: 10%;
         width: 300px;
         height: 100px;
-        font-size: 20px;
+        font-size: 22px;
     }
 }
