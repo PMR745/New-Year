@@ -123,7 +123,7 @@ body {
             font-size: 16px;
         }
         #op span{
-            width: 180px;
+            width: 200px;
             height: 100px;
             font-size: 20px;
         }
@@ -148,7 +148,7 @@ body {
     }
     #op span{
         left: 10%;
-        width: 200px;
+        width: 300px;
         height: 100px;
         font-size: 20px;
     }
